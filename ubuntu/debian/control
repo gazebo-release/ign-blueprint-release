@@ -4,23 +4,23 @@ Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: optional
 Build-Depends: debhelper (>= 11),
-	       libignition-cmake2-dev,
-  	       libignition-common3-dev,
-  	       libignition-fuel-tools3-dev,
-	       libignition-gazebo2-dev,
-	       libignition-gui2-dev,
-	       libignition-launch-dev,
-	       libignition-math6-dev,
-	       libignition-math6-eigen3-dev,
-	       libignition-msgs4-dev,
-	       libignition-plugin-dev,
-	       libignition-physics-dev,
-	       libignition-sensors2-dev,
-	       libignition-rendering2-dev,
-	       libignition-tools-dev,
-	       libignition-transport7-dev,
-	       libsdformat8-dev,
-               ignition-gazebo2
+        libignition-cmake2-dev (>= 2.6.2),
+        libignition-common3-dev (>= 3.9.0),
+        libignition-fuel-tools3-dev (>= 3.5.0),
+        libignition-gazebo2-dev (>= 2.26.0),
+        libignition-gui2-dev (>= 2.3.3),
+        libignition-launch-dev (>= 1.10.1),
+        libignition-math6-dev (>= 6.7.0),
+        libignition-math6-eigen3-dev (>= 6.7.0),
+        libignition-msgs4-dev (>= 4.9.0),
+        libignition-plugin-dev (>= 1.1.0),
+        libignition-physics-dev (>= 1.10.0),
+        libignition-sensors2-dev (>= 2.9.1),
+        libignition-rendering2-dev (>= 2.5.1),
+        libignition-tools-dev,
+        libignition-transport7-dev (>= 7.5.1),
+        libsdformat8-dev (>= 8.9.1),
+        ignition-gazebo2 (>= 2.26.0)
 Vcs-Browser: https://bitbucket.org/ignitionrobotics/ignition-blueprint-release
 Vcs-Hg: https://bitbucket.org/ignitionrobotics/ignition-blueprint-release
 Homepage: http://ignitionrobotics.org/
@@ -28,24 +28,24 @@ Homepage: http://ignitionrobotics.org/
 Package: ignition-blueprint
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake2-dev,
-         libignition-common3-dev,
-         libignition-fuel-tools3-dev,
-         libignition-gazebo2-dev,
-         libignition-gui2-dev,
-	 libignition-launch-dev,
-         libignition-math6-dev,
-         libignition-math6-eigen3-dev,
-         libignition-msgs4-dev,
-         libignition-plugin-dev,
-         libignition-physics-dev,
-         libignition-sensors2-dev,
-         libignition-rendering2-dev,
-         libignition-tools-dev,
-         libignition-transport7-dev,
-         libsdformat8-dev,
-         ignition-gazebo2,
-         ${misc:Depends}
+Depends: libignition-cmake2-dev (>= 2.6.2),
+        libignition-common3-dev (>= 3.9.0),
+        libignition-fuel-tools3-dev (>= 3.5.0),
+        libignition-gazebo2-dev (>= 2.26.0),
+        libignition-gui2-dev (>= 2.3.3),
+        libignition-launch-dev (>= 1.10.1),
+        libignition-math6-dev (>= 6.7.0),
+        libignition-math6-eigen3-dev (>= 6.7.0),
+        libignition-msgs4-dev (>= 4.9.0),
+        libignition-plugin-dev (>= 1.1.0),
+        libignition-physics-dev (>= 1.10.0),
+        libignition-sensors2-dev (>= 2.9.1),
+        libignition-rendering2-dev (>= 2.5.1),
+        libignition-tools-dev,
+        libignition-transport7-dev (>= 7.5.1),
+        libsdformat8-dev (>= 8.9.1),
+        ignition-gazebo2 (>= 2.26.0),
+        ${misc:Depends}
 Multi-Arch: foreign
 Description: Collection of ignition robotics packages - Blueprint
   This is a metapackage used for triggering the whole collection of ignition
